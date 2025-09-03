@@ -80,3 +80,23 @@
   - using @Qualifier annotation
 
 ---
+# Video 8 :
+- **Title:** Spring boot : Bean Scopes | Singleton, Prototype, Request, Session Scopes with Examples in Java
+- **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=JGFNn6Eqp64&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=8)
+
+## Topics Covered
+- Bean Scopes
+  - Singleton
+    - default initialisation - Eager
+    - @Lazy for lazy initialisation
+  - Prototype
+    - default initialisation - Lazy
+  - Request
+    - default initialisation - Lazy
+    - proxyMode with request scope
+  - Session
+    - default initialisation - Lazy
+  - Application
+    - one object per IOC
+
+---
