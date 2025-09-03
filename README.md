@@ -119,3 +119,15 @@
 - bean creation based on value of property available in config using @ConditionalOnProperty
 
 ---
+# Video 11 :
+- **Title:** Spring boot @Profile annotation | How Profiling works in Spring boot
+- **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=czkTdFHHz_4&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=11)
+
+## Topics Covered
+- application-{profile}.properties file for different profiles
+- activate profile using {spring.profiles.active}
+- set active profile during application build dynamically
+- @Profile annotation
+- multiple profiles can be set at the same time, last one will be prioritized
+
+---
