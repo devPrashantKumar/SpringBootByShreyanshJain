@@ -58,6 +58,25 @@
 - **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=W-TgmKAnGG0&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=7)
 
 ## Topics Covered
-- Wha
+- Problem Dependency injection tried to solve
+  - Tight coupling
+  - facilitate Dependency inversion (SOLID Principle)
+- DI using @Autowired
+  - Field Injection
+    - Advantage and Disadvantage with Field Injection
+  - Setter Injection
+    - Advantage and Disadvantage with Setter Injection
+  - Constructor Injection
+    - Advantage and Disadvantage with Constructor Injection
+- Common Issues With DI
+  - Circular Dependency
+  - Unsatisfied Dependency
+- Solutions to resolve circular dependency error
+  - code refactoring
+  - @Lazy on @Autowired annotation
+  - using @PostConstruct
+- Solutions to remove unsatisfied dependency error
+  - using @Primary annotation
+  - using @Qualifier annotation
 
 ---
