@@ -100,3 +100,14 @@
     - one object per IOC
 
 ---
+# Video 9 :
+- **Title:** Spring boot: Dynamically Initialized Beans | Value Annotation
+- **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=eZfT5yKm2Xg&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=9)
+
+## Topics Covered
+- @Qualifier breaks dependency inversion principle
+- Solution
+  - using bean based on user input
+  - Using @Configuration+@Bean and @Value to create bean dynamically
+
+---
