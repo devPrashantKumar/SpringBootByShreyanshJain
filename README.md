@@ -111,3 +111,11 @@
   - Using @Configuration+@Bean and @Value to create bean dynamically
 
 ---
+# Video 10 :
+- **Title:** Spring boot @ConditionalOnProperty Annotation
+- **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=HN-IX8Rl8Do&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=10)
+
+## Topics Covered
+- bean creation based on value of property available in config using @ConditionalOnProperty
+
+---
