@@ -165,4 +165,16 @@
   - target methods and classes with @Transactional using @within Pointcut Expression
   - apply @Around advice on methods which satisfied Pointcut Expression
   - Commit and Rollback logic available in Advice method
+
+---
+# Video 14 :
+- **Title:** Spring boot @Transactional Annotation - Part2 | Declarative, Programmatic Approach and Propagation
+- **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=u4kRFypRmHA&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=14)
+
+## Topics Covered
+- TransactionManager Hierarchy
+- Ways to do transaction management
+  - Declarative
+  - Programmatic
+
 ---
