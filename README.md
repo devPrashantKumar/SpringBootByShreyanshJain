@@ -131,3 +131,25 @@
 - multiple profiles can be set at the same time, last one will be prioritized
 
 ---
+# Video 12 :
+- **Title:** Spring boot AOP (Aspect Oriented Programming)
+- **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=HhsAw8GVogQ&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=12)
+
+## Topics Covered
+- Advantage of AOP
+- Pointcut Expression
+  - execution
+    - use of (*) and (..) in Pointcut Expression
+  - within
+  - @within
+  - @annotation
+  - args
+  - @args
+  - target
+- combining pointcuts using && and ||
+- Named Pointcuts
+- Advice
+  - @Before
+  - @After
+  - @Around
+---
