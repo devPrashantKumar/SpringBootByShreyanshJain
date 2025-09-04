@@ -152,4 +152,17 @@
   - @Before
   - @After
   - @Around
+
+---
+# Video 13 :
+- **Title:** Spring boot @Transactional Annotation - Part1
+- **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=Kf-gAW8hGQA&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=13)
+
+## Topics Covered
+- ACID Properties
+- @EnableTransactionalManagement
+- Transaction Management in Spring Boot use AOP
+  - target methods and classes with @Transactional using @within Pointcut Expression
+  - apply @Around advice on methods which satisfied Pointcut Expression
+  - Commit and Rollback logic available in Advice method
 ---
