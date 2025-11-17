@@ -178,3 +178,21 @@
   - Programmatic
 
 ---
+# Video 43 :
+- **Title:** Spring boot Actuator in depth
+- **URL:** [Watch on YouTube](https://youtu.be/mnISCe3HL2E?si=_bAzeKKhv9f8Dphl)
+
+## Topics Covered
+- change actuator endpoint
+- expose specific or all actuator endpoints
+- /metrics and /metrics/** endpoint to check application metrics 
+- /health endpoint
+- customise /health endpoint status based on status of no. of services 
+- customise /health endpoint, show status of no. of services and show /health endpoint status based on status of no. of services
+- /mappings, /beans, /threaddump, /env, /env/**
+- expose /shutdown and /heapdump endpoint (not activated via *)
+- custom actuator endpoint using @Endpoint
+- @ReadOperation (GET), @WriteOperation (POST), @DeleteOperation (DELETE)
+- Custom Actuator endpoints cannot consume JSON reliably:
+  - Actuator’s custom endpoints use a very lightweight serialization system, not the full Spring MVC engine.
+  - If you need complex / nested JSON, validation, headers, auth, etc., you should use a regular Spring MVC controller instead of a custom Actuator endpoint.

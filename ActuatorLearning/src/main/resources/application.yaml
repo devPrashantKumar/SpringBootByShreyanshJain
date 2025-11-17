@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ActuatorLearning
+
+management:
+  endpoints:
+    web:
+      base-path: /manage
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+    heapdump:
+      access: unrestricted
+    shutdown:
+      access: unrestricted
