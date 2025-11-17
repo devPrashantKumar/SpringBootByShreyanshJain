@@ -11,7 +11,7 @@
         <module name="FirstProject" />
         <module name="SimpleMavenProject" />
       </profile>
-      <profile name="Annotation profile for ActuatorLearning" enabled="true">
+      <profile name="Annotation profile for ConfigurationPropertiesLearning" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -19,6 +19,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="ActuatorLearning" />
+        <module name="ConfigurationPropertiesLearning" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AOPLearning" options="-parameters" />
       <module name="ActuatorLearning" options="-parameters" />
+      <module name="ConfigurationPropertiesLearning" options="-parameters" />
       <module name="FirstProject" options="-parameters" />
     </option>
   </component>

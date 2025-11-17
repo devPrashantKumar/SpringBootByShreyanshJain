@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: ConfigurationPropertiesLearning
+
+user:
+  username: prashant
+  age: 10
+  active: true
+
+  address:
+    city: delhi
+    country: india
+
+  roles[0]: admin
+  roles[1]: client
+
+  courses[0].name: science
+  courses[0].enrolled: true
+  courses[1].name: math
+  courses[1].enrolled: false
+
+  preferenceS:
+    theme : dark
+    language: english
+    timezone: IST
+
+  locations:
+    office:
+      city: Delhi
+      country: India
+    home:
+      city: Jaipur
+      country: India
