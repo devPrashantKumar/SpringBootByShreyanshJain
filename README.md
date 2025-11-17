@@ -196,3 +196,11 @@
 - Custom Actuator endpoints cannot consume JSON reliably:
   - Actuator’s custom endpoints use a very lightweight serialization system, not the full Spring MVC engine.
   - If you need complex / nested JSON, validation, headers, auth, etc., you should use a regular Spring MVC controller instead of a custom Actuator endpoint.
+
+---
+# Video 44 :
+- **Title:** Spring Boot: ConfigurationProperties in-depth
+- **URL:** [Watch on YouTube](https://youtu.be/8IoR4AGf8xc?si=fGKa_2koTEBNu3-J)
+
+## Topics Covered
+- access configuration using @ConfigurationProperties
