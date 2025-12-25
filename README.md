@@ -22,6 +22,15 @@
 - what spring challenges spring boot solves
 
 ---
+# Video 3 :
+- **Title:** Spring boot Project setup and Layered Architecture Introduction
+- **URL:** [Watch on YouTube](https://youtu.be/4QWW4v2u_ZI?si=KurisnWxWQLF0Up6)
+
+## Topics Covered
+- Spring boot project setup
+- Spring Boot Layered Architecture
+
+---
 # Video 4 :
 - **Title:** Introduction to Maven and its Lifecycle | Spring boot Maven project
 - **URL:** [Watch on YouTube](https://www.youtube.com/watch?v=1e4jNP8iKLo&list=PL6W8uoQQ2c60g6_fcjDCLHSx1LBeVYqyZ&index=4)
