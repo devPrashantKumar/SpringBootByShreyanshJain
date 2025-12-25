@@ -1,4 +1,4 @@
-package com.thecodeexperience.FirstProject;
+package com.thecodeexperience.FirstSpringBootProject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-public class FirstProjectApplication {
+public class FirstSpringBootProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FirstProjectApplication.class, args);
+		SpringApplication.run(FirstSpringBootProjectApplication.class, args);
 	}
 
 }
