@@ -123,11 +123,11 @@
     - default initialisation - Lazy
   - Request
     - default initialisation - Lazy
-    - proxyMode with request scope
+    - proxyMode with request scope (create proxy object in case of eager initialisation)
   - Session
     - default initialisation - Lazy
   - Application
-    - one object per IOC
+    - one object across all IOC containers
 
 ---
 # Video 9 :
