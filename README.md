@@ -147,6 +147,7 @@
 
 ## Topics Covered
 - bean creation based on value of property available in config using @ConditionalOnProperty
+- similar kind of other conditional annotations also available and we can create custom also
 
 ---
 # Video 11 :
@@ -159,6 +160,8 @@
 - set active profile during application build dynamically
 - @Profile annotation
 - multiple profiles can be set at the same time, last one will be prioritized
+- spring boot loads properties in active profiles order, and it will override values according to order
+  - default profile -> active01 profile -> active02 profile ...
 
 ---
 # Video 12 :

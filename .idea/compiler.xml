@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ProfilingLearning" />
         <module name="AOPLearning" />
         <module name="FirstSpringBootProject" />
         <module name="SimpleMavenProject" />
@@ -17,12 +18,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="ActuatorLearning" />
         <module name="ConfigurationPropertiesLearning" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ProfilePractice" target="24" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -30,6 +33,7 @@
       <module name="ActuatorLearning" options="-parameters" />
       <module name="ConfigurationPropertiesLearning" options="-parameters" />
       <module name="FirstSpringBootProject" options="-parameters" />
+      <module name="ProfilingLearning" options="-parameters" />
     </option>
   </component>
 </project>
