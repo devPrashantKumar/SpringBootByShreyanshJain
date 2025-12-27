@@ -225,6 +225,18 @@
   - SERIALIZATION
 
 ---
+# Video 15 :
+- **Title:** Spring boot @Transactional Annotation - Part3 | Isolation Level and its different types
+- **URL:** [Watch on YouTube](https://youtu.be/W1YSG-MrX1c?si=aOodV7kli01k-kBh)
+
+## Topics Covered
+- Transaction Isolation
+    - READ_UNCOMMITED
+    - READ_COMMITED
+    - REPEATABLE_READ
+    - SERIALIZATION
+
+---
 # Video 16 :
 - **Title:** Spring boot @Async Annotation - Part1 | ThreadPoolExecutor
 - **URL:** [Watch on YouTube](https://youtu.be/1qf5yqfInzY?si=PxwbA0WIEwC4HJia)
