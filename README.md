@@ -212,6 +212,35 @@
   - Programmatic
 
 ---
+# Video 16 :
+- **Title:** Spring boot @Async Annotation - Part1 | ThreadPoolExecutor
+- **URL:** [Watch on YouTube](https://youtu.be/1qf5yqfInzY?si=PxwbA0WIEwC4HJia)
+
+## Topics Covered
+- SimpleAsyncTaskExecuter
+- ThreadPoolTaskExecuter vs ThreadPoolExecuter
+- Execution Pool Selection
+  - if no bean present it will create default ThreadPoolTaskExecuter bean
+  - create custom ThreadPoolTaskExecuter Bean, it will set it default
+  - create custom ThreadPoolExecuter Bean but don't pass so it will use SimpleAsyncTaskExecuter and if pass it will use that
+- 
+
+---
+# Video 17 :
+- **Title:** Spring boot @Async Annotation - Part2 | Async Annotation Important Interview questions
+- **URL:** [Watch on YouTube](https://youtu.be/xADtTuyLyYM?si=OEhKyqzoSEAi4KXn)
+
+## Topics Covered
+- Limitations of @Async due to AOP
+- issues with Transaction management during @Async
+- return Future and CompletableFuture from @Async methods
+- Exception Handling of @async method
+  - when method return something, handle where we are fetching result
+  - when return type is Void
+    - use try catch
+    - Implement AsyncUncaughtExceptionHandler
+
+---
 # Video 43 :
 - **Title:** Spring boot Actuator in depth
 - **URL:** [Watch on YouTube](https://youtu.be/mnISCe3HL2E?si=_bAzeKKhv9f8Dphl)
