@@ -194,7 +194,7 @@
 
 ## Topics Covered
 - ACID Properties
-- @EnableTransactionalManagement
+- @EnableTransactionalManagement (optional , spring boot automatically configure it)
 - Transaction Management in Spring Boot use AOP
   - target methods and classes with @Transactional using @within Pointcut Expression
   - apply @Around advice on methods which satisfied Pointcut Expression
@@ -210,7 +210,13 @@
 - Ways to do transaction management
   - Declarative
   - Programmatic
-
+- Transaction Propagation
+  - REQUIRED
+  - REQUIRED_NEW
+  - SUPPORTS
+  - NOT_SUPPORTED
+  - MANDATORY
+  - NEVER
 ---
 # Video 16 :
 - **Title:** Spring boot @Async Annotation - Part1 | ThreadPoolExecutor
