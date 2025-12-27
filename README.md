@@ -217,6 +217,8 @@
   - NOT_SUPPORTED
   - MANDATORY
   - NEVER
+  - NESTED (not supported by all jpa)
+  
 ---
 # Video 16 :
 - **Title:** Spring boot @Async Annotation - Part1 | ThreadPoolExecutor
