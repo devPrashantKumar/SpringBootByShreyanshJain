@@ -218,7 +218,12 @@
   - MANDATORY
   - NEVER
   - NESTED (not supported by all jpa)
-  
+- Transaction Isolation
+  - READ_UNCOMMITED
+  - READ_COMMITED
+  - REPEATABLE_READ
+  - SERIALIZATION
+
 ---
 # Video 16 :
 - **Title:** Spring boot @Async Annotation - Part1 | ThreadPoolExecutor
