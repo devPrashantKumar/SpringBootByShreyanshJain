@@ -185,6 +185,7 @@
   - @Before
   - @After
   - @Around
+- Aspect/Pointcut processing flow in Spring during application startup
 
 ---
 # Video 13 :
