@@ -218,11 +218,6 @@
   - MANDATORY
   - NEVER
   - NESTED (not supported by all jpa)
-- Transaction Isolation
-  - READ_UNCOMMITED
-  - READ_COMMITED
-  - REPEATABLE_READ
-  - SERIALIZATION
 
 ---
 # Video 15 :
