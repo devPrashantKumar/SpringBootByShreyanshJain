@@ -212,7 +212,7 @@
   - Programmatic
 - Transaction Propagation
   - REQUIRED
-  - REQUIRED_NEW
+  - REQUIRES_NEW
   - SUPPORTS
   - NOT_SUPPORTED
   - MANDATORY
