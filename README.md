@@ -245,6 +245,7 @@
   - create custom ThreadPoolExecuter Bean but don't pass so it will use SimpleAsyncTaskExecuter and if pass it will use that
 - 
 
+
 ---
 # Video 17 :
 - **Title:** Spring boot @Async Annotation - Part2 | Async Annotation Important Interview questions
